@@ -9,14 +9,18 @@ namespace assignment1.Controllers
 {
     public class sqrtController : ApiController
     {/// <summary>
-    /// 
-    /// </summary>
-    /// <param name="id"></param>
-    /// <returns></returns>
+     /// square root given number
+     /// </summary>
+     /// <param name="id"></param>
+     /// <returns>Returns the square root of the integer input {id}.</returns>
+     /// <example> 
+     /// Console.WriteLine(Math.Sqrt(id));
+     /// </example>
         public int Get(int id)
         {
-            int difference = Math.Sqrt(id);
-            return difference;
+            int Sroot = Math.Sqrt(id);
+            return Sroot;
+
         }
     }
 }
