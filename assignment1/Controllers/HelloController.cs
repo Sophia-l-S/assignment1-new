@@ -7,14 +7,8 @@ using System.Web.Http;
 
 namespace assignment1.Controllers
 {
-    public class HelloWorldController : ApiController
+    public class HelloController : ApiController
     {
-        
-        /// <summary> 
-        /// outputs a string 
-        /// </summary> 
-        /// <param name="id"> </param> 
-        /// <returns>Returns Hello World!</returns>
         public string Post()
         {
             return "Hello World";

@@ -19,7 +19,7 @@ namespace assignment1.Controllers
         ///</example> 
         public int Get(int id)
         {
-            int equ = id + 10 – 11 * 6 + 5;
+            int equ = (id + 10) - 11 * 6 + 5;
             return equ;
         }
     } 

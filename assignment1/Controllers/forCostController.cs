@@ -21,11 +21,11 @@ namespace assignment1.Controllers
         ///</example> 
         /// to solve this problem you could use $5.50 divided by 14(nights) = .3928per day.Times the 13% tax.
 
-        public int Get(int id)
-        {
-            int charge = id * .3928;
-            int tax = charge * .13
-            return tax;
-        }
+     //   public int Get(int id)
+      //  {
+        //    int charge = id * .3928;
+       //     int tax = charge * .13
+       //     return tax;
+       // }
     }
 }

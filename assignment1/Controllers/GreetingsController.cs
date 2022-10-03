@@ -17,9 +17,9 @@ namespace assignment1.Controllers
         /// <example>http://localhost:51950/api/greetings/10 
         ///Greetings to 10 people!  
         ///</example> 
-        public int Get(int id)
+        public string Get(string id)
         {
-            return “Greetings to” +id + “people!”;
+            return "Greetings to" + id + "people!";
         }
     }
 }
